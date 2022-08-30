@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIP-Extractor</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-enter">Unzip your files here</h1>
+        <form action="/unzipfiles" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Upload Files:</label>
+                <input class="form-control" type="file" name="file" id="" multiple required>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-block btn-danger">
+                    Download file
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
